@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Shopping Saver</title>
+  <!-- Material icons for delete buttons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h2>SnapStash</h2>
+
+  <!-- 🔍 Preview of current tab title -->
+  <div id="preview" style="margin-bottom: 10px; font-weight: bold;"></div>
+
+  <!-- 📂 Category dropdown -->
+  <label for="category">Choose a category:</label>
+  <select id="category">
+    <option value="">Select a category</option>
+    <option value="Books">Books</option>
+    <option value="Clothes">Clothes</option>
+    <option value="Shoes">Shoes</option>
+    <option value="Electronics">Electronics</option>
+    <option value="Pets">Pets</option>
+    <option value="Health">Health</option>
+    <option value="Furniture">Furniture</option>
+  </select>
+
+  <!-- 💾 Save item button -->
+  <button id="saveBtn">Save Item</button>
+
+  <!-- 📃 Saved list output -->
+  <h3>📝 Saved Items</h3>
+  <div id="itemList"></div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Shopping Saver",
+  "version": "1.0",
+  "description": "Save and organize shopping links by category",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon128.png",
+      "48": "icon128.png",
+      "128": "icon128.png"
+    }
+  },
+  "permissions": ["tabs", "storage"],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
+
+
